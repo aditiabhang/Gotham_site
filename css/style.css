@@ -438,5 +438,21 @@ aside.right-sidebar {
 }
 
 @media (max-width: 36.125em) {
-
+	article {
+		width: 100%;
+	}
+	.calendar-widget, .popular-news {
+		width: 100%;
+	}
+	.page-footer>.wrapper>.footer-nav {
+		width: 100%;
+	} 
+	.page-footer>.wrapper>.socials {
+		width: 100%;
+		justify-content: flex-start;
+		margin: 15px 0;
+	}
+	.footer-nav a {
+		padding: 0;
+	}
 }
